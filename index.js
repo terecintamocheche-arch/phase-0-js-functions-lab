@@ -20,3 +20,6 @@ function findMaximum(num1, num2) {
 function isPalindrome(word) {
   return word === word.split("").reverse().join("");
 }
+function calculateDiscountedPrice(originalPrice, discountPercentage) {
+  return originalPrice - (originalPrice * discountPercentage / 100);
+}
